@@ -3,6 +3,11 @@ version: 0.2
 phases:
   pre_build:
     commands:
+      - echo Installing JDK 21...
+      - sudo yum install java-21-openjdk-devel -y
+      - export JAVA_HOME=/usr/lib/jvm/java-21-openjdk
+      - export PATH=$JAVA_HOME/bin:$PATH
+      - java -version
       - mvn clean install
       - echo Logging in to Amazon ECR...
       - aws --version
