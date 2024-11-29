@@ -1,8 +1,7 @@
 package com.example.demo.service;
 
-import com.raj.library.entity.Admin;
-import com.raj.library.entity.User;
-import com.raj.library.repository.UserRepo;
+import com.example.demo.entity.User;
+import com.example.demo.repository.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

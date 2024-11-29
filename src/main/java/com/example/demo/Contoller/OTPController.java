@@ -1,9 +1,8 @@
 package com.example.demo.Contoller;
 
-
-import com.raj.library.Service.EmailService;
-import com.raj.library.Service.OtpService;
-import com.raj.library.TempStore.OTPStorage;
+import com.example.demo.Tempstore.OTPStorage;
+import com.example.demo.service.EmailService;
+import com.example.demo.service.OtpService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;

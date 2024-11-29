@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class OTPStorage {
+
     private static final Map<String,String> otpStore = new HashMap<>();
     public static void storeOtp(String mail,String otp){
         otpStore.put(mail,otp);

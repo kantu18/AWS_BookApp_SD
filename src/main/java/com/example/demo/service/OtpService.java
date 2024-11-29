@@ -6,6 +6,7 @@ import java.security.SecureRandom;
 
 @Service
 public class OtpService {
+
     private static final int otp_Length = 6;
     public String generateOTP(){
         SecureRandom random = new SecureRandom();

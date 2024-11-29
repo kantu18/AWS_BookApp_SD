@@ -1,9 +1,10 @@
 package com.example.demo.Contoller;
 
-import com.raj.library.Service.AdminService;
-import com.raj.library.Service.UserService;
-import com.raj.library.entity.Admin;
-import com.raj.library.entity.User;
+
+import com.example.demo.entity.Admin;
+import com.example.demo.entity.User;
+import com.example.demo.service.AdminService;
+import com.example.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.Banner;
 import org.springframework.stereotype.Controller;

@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 @Entity
 @Table(name="Student")
 public class User {
+
     @Id
     private String userName;
     private String password;
